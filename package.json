@@ -1,6 +1,7 @@
 {
   "name": "norn",
   "version": "1.0.0",
+  "type": "module",
   "description": "Sistema de store global simples para Vue",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -27,10 +28,9 @@
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.1.6",
-    "rollup": "^4.42.0",
-    "tslib": "^2.8.1",
-    "typescript": "^5.8.3",
-    "vue": "^3.5.16"
+    "rollup": "^4.12.0",
+    "typescript": "^5.3.3",
+    "vue": "^3.4.0"
   },
   "repository": {
     "type": "git",

@@ -1,5 +1,5 @@
 {
-  "name": "norn",
+  "name": "norn-vue",
   "version": "1.0.0",
   "type": "module",
   "description": "Sistema de store global simples para Vue",

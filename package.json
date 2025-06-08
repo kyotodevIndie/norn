@@ -1,0 +1,43 @@
+{
+  "name": "norn",
+  "version": "1.0.0",
+  "description": "Sistema de store global simples para Vue",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "vue",
+    "store",
+    "state-management",
+    "reactive",
+    "composition-api"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.42.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3",
+    "vue": "^3.5.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seuusuario/norn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seuusuario/norn/issues"
+  },
+  "homepage": "https://github.com/seuusuario/norn#readme"
+}
